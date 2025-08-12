@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background 0.5s ease;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 20px #00000066;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.weather-info img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-info h2 {
+  margin: 10px 0;
+}
+
+/* Weather Backgrounds */
+.clear {
+  background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+.rain {
+  background: linear-gradient(to top, #4e54c8, #8f94fb);
+}
+
+.clouds {
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
+}
+
+.snow {
+  background: linear-gradient(to top, #e0eafc, #cfdef3);
+}
+
+.thunderstorm {
+  background: linear-gradient(to top, #373b44, #4286f4);
+}
+
+.mist {
+  background: linear-gradient(to top, #757f9a, #d7dde8);
+}
